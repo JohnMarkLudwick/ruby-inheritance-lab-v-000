@@ -4,7 +4,7 @@ class Student < User
 
 @@KNOWLEDGE = []
 
-  def new
+  def new(knowledge)
     @knowledge = []
   end
 
