@@ -4,8 +4,13 @@ class Student < User
 
 @@KNOWLEDGE = []
 
-  def new(knowledge)
+
+  def initialiaze
     @knowledge = []
+  end
+
+  def new(knowledge)
+    
   end
 
 
