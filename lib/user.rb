@@ -1,9 +1,8 @@
 class User
   
-  attr_reader :firstname, :lastname
-  attr_writer :firstname, :lastname
+  attr_reader :first_name, :last_name
+  attr_writer :first_name, :last_name
   
-  def intialize
   
   def first_name
     @first_name = last_name
